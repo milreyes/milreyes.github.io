@@ -1,0 +1,131 @@
+html {
+  background: #e5e3da;
+  color: #203232;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em; }
+  html a {
+    color: #487570;
+    font-family: 'Merriweather', serif;
+    padding-top: 10px; }
+    html a:hover {
+      color: #27E0E6; }
+
+.container {
+  max-width: 400px;
+  min-width: 280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px; }
+  @media screen and (min-width: 301px) {
+    .container {
+      padding-left: 80px;
+      padding-right: 80px; } }
+
+h2 {
+  color: #0AA1CA;
+  font-family: 'Merriweather', serif;
+  font-style: bold;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+  margin-top: 5px; }
+
+.greeting, .description {
+  margin-top: 0;
+  margin-bottom: 0; }
+  .greeting > p, .description > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 430px; }
+
+.greeting {
+  padding-bottom: 5px; }
+
+.description {
+  border: solid #345151 1px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #5b958e;
+  box-shadow: -1px -1px 1px #9a9a9a;
+  margin-bottom: 10px;
+  margin-right: 20px; }
+
+.social {
+  margin-top: 5px;
+  margin-right: 10px;
+  padding: 100px auto;
+  font-size: 100%; }
+  .social p {
+    display: inline; }
+
+.hat-container {
+  width: 40%;
+  height: 30%;
+  min-width: 240px;
+  height: 190px; }
+
+.hard-hat * {
+  position: relative;
+  top: 100px;
+  height: 100px;
+  border: 5px solid #203232; }
+
+.crest {
+  top: 5px;
+  width: 30px;
+  margin: auto;
+  height: 73px;
+  border-radius: 20px 20px 5px 5px;
+  z-index: 4;
+  background: white; }
+
+.hat {
+  z-index: 0;
+  width: 0;
+  height: 0;
+  margin: auto;
+  top: -55px;
+  border-bottom: 120px solid #203232;
+  border-left: 100px solid #203232;
+  border-right: 100px solid #203232;
+  border-radius: 200px 200px 0 0; }
+
+.hat-inside {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: auto;
+  top: -175px;
+  border-bottom: 107px solid white;
+  border-left: 90px solid white;
+  border-right: 90px solid white;
+  border-radius: 95px 95px 0 0; }
+
+.hood {
+  z-index: 0;
+  width: 0;
+  height: 0;
+  border-right: 120px solid #203232;
+  border-left: 120px solid #203232;
+  border-bottom: 20px solid #203232;
+  border-radius: 100px 100px 100px 100px;
+  top: -170px;
+  margin: auto; }
+
+.hood-inside {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-right: 112px solid white;
+  border-left: 112px solid white;
+  border-bottom: 10px solid white;
+  border-radius: 100px 100px 100px 100px;
+  top: -190px;
+  margin: auto; }
+
+footer {
+  font-size: 0.75em;
+  margin-top: 50px; }
+  footer > a {
+    font-family: 'Lato', sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
